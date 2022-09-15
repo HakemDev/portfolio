@@ -1,0 +1,23 @@
+INSERT INTO `portfolio`.`roles` (`name`) VALUES ('admin');
+INSERT INTO `portfolio`.`roles` (`name`) VALUES ('client');
+INSERT INTO `portfolio`.`roles` (`name`) VALUES ('ceo');
+
+///////////////////////
+INSERT INTO `portfolio`.`languages` (`libelle`) VALUES ('React js');
+INSERT INTO `portfolio`.`languages` (`libelle`) VALUES ('Javascript');
+INSERT INTO `portfolio`.`languages` (`libelle`) VALUES ('Node js');
+INSERT INTO `portfolio`.`languages` (`libelle`) VALUES ('Laravel');
+INSERT INTO `portfolio`.`languages` (`libelle`) VALUES ('php');
+INSERT INTO `portfolio`.`languages` (`libelle`) VALUES ('Express js');
+
+/////////////////////// Project
+INSERT INTO `portfolio`.`projets` (`title`, `description`, `github_link`, `image`, `user_id`) VALUES ('portfolio', 'portfolio description', 'aa', 'Aa', '1');
+INSERT INTO `portfolio`.`projets` (`title`, `description`, `github_link`, `image`, `user_id`) VALUES ('Market Farm', 'Market farm description', 'bb', 'bb', '1');
+
+////////////////////  projet_language
+
+INSERT INTO `portfolio`.`language_projet` (`language_id`, `projet_id`) VALUES ('4', '1');
+INSERT INTO `portfolio`.`language_projet` (`language_id`, `projet_id`) VALUES ('3', '2');
+
+
+
